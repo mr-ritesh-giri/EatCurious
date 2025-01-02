@@ -7,7 +7,7 @@ const Header = () => {
       <nav>
         <ul className="flex justify-between py-4">
           {NavItems.map((navItem, index) => (
-            <li key={index}>
+            <li key={index} >
               <a className="text-2xl" href={navItem.link}>
                 {navItem.name}
               </a>
@@ -15,7 +15,13 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <img height={120} width={100} src={EatCurious} alt="SVG" />
+      <img
+        height={120}
+        width={100}
+        src={EatCurious}
+        className="font-narrow"
+        alt="SVG"
+      />
     </header>
   );
 };

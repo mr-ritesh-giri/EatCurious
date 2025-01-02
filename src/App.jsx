@@ -1,9 +1,33 @@
-import Header from "./components/Header";
+import {
+  Curious,
+  Home,
+  InspiringGood,
+  PoweredByPositivity,
+  Flavoursome,
+  FeatureBenefits,
+  DroolingYet,
+  WeareGrowing,
+  Intrigued,
+  FeedMe,
+} from "./pages";
 
 export default function App() {
   return (
-    <section className="relative min-h-screen w-full bg-primary text-white">
-      <Header />
-    </section>
+    <>
+      <Home />
+      <div className="font-rubik text-2xl">This is using the Rubik font</div>
+      <div className="font-narrow text-2xl">
+        This is using the Obviously Narrow font
+      </div>
+      <Curious />
+      <InspiringGood />
+      <PoweredByPositivity />
+      <Flavoursome />
+      <FeatureBenefits />
+      <DroolingYet />
+      <WeareGrowing />
+      <Intrigued />
+      <FeedMe />
+    </>
   );
 }

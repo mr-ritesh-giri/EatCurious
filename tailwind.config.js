@@ -10,6 +10,10 @@ export default {
         mediumGreen: "#1abe71",
         yellow: "#ffb500",
       },
+      fontFamily: {
+        narrow: ["Oxanium", "serif"],
+        rubik: ["Rubik", "Helvetica", "sans-serif"],
+      },
     },
   },
   plugins: [],
