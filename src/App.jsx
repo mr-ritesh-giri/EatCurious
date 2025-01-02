@@ -1,3 +1,4 @@
+import { Header } from "./components";
 import {
   Curious,
   Home,
@@ -13,12 +14,9 @@ import {
 
 export default function App() {
   return (
-    <>
+    <section className="relative">
+      <Header className={"absolute top-0 z-50"} />
       <Home />
-      <div className="font-rubik text-2xl">This is using the Rubik font</div>
-      <div className="font-narrow text-2xl">
-        This is using the Obviously Narrow font
-      </div>
       <Curious />
       <InspiringGood />
       <PoweredByPositivity />
@@ -28,6 +26,6 @@ export default function App() {
       <WeareGrowing />
       <Intrigued />
       <FeedMe />
-    </>
+    </section>
   );
 }

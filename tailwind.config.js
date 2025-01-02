@@ -11,8 +11,9 @@ export default {
         yellow: "#ffb500",
       },
       fontFamily: {
-        narrow: ["Oxanium", "serif"],
-        rubik: ["Rubik", "Helvetica", "sans-serif"],
+        rubik: ["Oxanium", "serif"],
+        narrow: ["PT Sans Narrow", "sans-serif"],
+        narrowHelvetica: ["obviously-narrow", "Helvetica", "sans-serif"],
       },
     },
   },
