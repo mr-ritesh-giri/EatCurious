@@ -1,23 +1,26 @@
 const Hero = ({ className }) => {
   return (
     <section
-      className={`relative w-full min-h-screen mx-auto py-16 font-rubix flex flex-col items-center justify-center ${className}`}
+      className={`w-full min-h-screen mx-auto md:py-16 font-rubix flex flex-col items-center justify-center ${className}`}
     >
-      <h1 className="heading-classes absolute z-10 top-40">
+      <h1 className="heading-classes relative z-10 top-40 text-center">
         MEAT
-        <span>-</span>
+        <span className="max-lg:hidden">-</span>
+        <br className="flex lg:hidden" />
         FREE
       </h1>
 
-      <div className="absolute mt-20 z-20">
+      <div className="relative mt-40 z-20">
         <img
-          className="h-[40vw]"
+          className="md:h-[500px] lg:h-[650px]"
           src="src/assets/Images/bowls/home-bowl.png"
           alt="Hero Bowl"
         />
       </div>
 
-      <h1 className="heading-classes absolute z-30 bottom-28 ">YOUR MIND</h1>
+      <h1 className="heading-classes relative z-30 bottom-10 text-center">
+        YOUR <br className="flex lg:hidden" /> <span> MIND</span>
+      </h1>
     </section>
   );
 };

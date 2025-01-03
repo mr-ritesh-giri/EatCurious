@@ -2,9 +2,9 @@ import { NavItemsRight, NavItemsLeft } from "../Constants/constants/";
 import EatCurious from "../assets/logo/eatcurious.svg";
 import { FaBars } from "react-icons/fa";
 
-const Header = ({ className }) => {
+const Header = () => {
   return (
-    <header className={`w-full px-40 text-white ${className}`}>
+    <header className="fixed top-0 z-50 w-full px-6 lg:px-40 text-white">
       <nav>
         {/* Desktop View */}
         <ul className="max-lg:hidden flex justify-between items-center py-4">
@@ -22,7 +22,7 @@ const Header = ({ className }) => {
 
           {/* Eat Curious Logo */}
           <div>
-            <img className="h-20" src={EatCurious} alt="SVG" />
+            <img className="h-1 md:h-20" src={EatCurious} alt="SVG" />
           </div>
 
           {/* Right side Navbar */}
@@ -42,7 +42,7 @@ const Header = ({ className }) => {
         <ul className="lg:hidden flex items-center justify-between py-4">
           {/* Eat Curious Logo */}
           <div className="flex-1 flex justify-center">
-            <img className="h-20" src={EatCurious} alt="SVG" />
+            <img className="h-12 md:h-20" src={EatCurious} alt="SVG" />
           </div>
 
           {/* Hamburger Icon */}

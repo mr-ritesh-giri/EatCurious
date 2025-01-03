@@ -14,8 +14,8 @@ import {
 
 export default function App() {
   return (
-    <section className="relative">
-      <Header className={"absolute top-0 z-50"} />
+    <section>
+      <Header />
       <Home />
       <Curious />
       <InspiringGood />
