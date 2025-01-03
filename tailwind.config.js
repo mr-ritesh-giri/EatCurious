@@ -15,6 +15,10 @@ export default {
         narrow: ["PT Sans Narrow", "sans-serif"],
         narrowHelvetica: ["obviously-narrow", "Helvetica", "sans-serif"],
       },
+      fontWeight: {
+        "extra-bold": "900",
+        "super-bold": "1000",
+      },
     },
   },
   plugins: [],
