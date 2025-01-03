@@ -35,3 +35,36 @@ export const featuresCardDetails = [
     text: "Foodies unite, because here flavour rules.",
   },
 ];
+
+export const curiousCardsDetails = [
+  {
+    title: "CURIOUS H&S PIECES",
+    imgSrc: "src/assets/Images/bowls/bowl1.png",
+    className: "mediumGreen",
+  },
+  {
+    title: "CURIOUS DEHYDRATE MINCE",
+    imgSrc: "src/assets/Images/bowls/bowl2.png",
+    className: "yellow",
+  },
+  {
+    title: "CURIOUS BBQ PIECES",
+    imgSrc: "src/assets/Images/bowls/bowl3.png",
+    className: "mediumGreen",
+  },
+  {
+    title: "CURIOUS ORIGNAL PIECES",
+    imgSrc: "src/assets/Images/bowls/bowl4.png",
+    className: "yellow",
+  },
+  {
+    title: "CURIOUS DEHYDRATE PIECES",
+    imgSrc: "src/assets/Images/bowls/bowl5.png",
+    className: "mediumGreen",
+  },
+  {
+    title: "CURIOUS TANDOORI FIRE PIECES",
+    imgSrc: "src/assets/Images/bowls/bowl6.png",
+    className: "mediumGreen",
+  },
+];

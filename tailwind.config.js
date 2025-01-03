@@ -17,8 +17,8 @@ export default {
         narrowHelvetica: ["obviously-narrow", "Helvetica", "sans-serif"],
       },
       fontWeight: {
-        "extra-bold": "900",
-        "super-bold": "1000",
+        extraBold: 900,
+        superBold: 1000,
       },
     },
   },
