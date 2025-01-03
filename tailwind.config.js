@@ -9,6 +9,7 @@ export default {
         lightGreen: "#d4ed6d",
         mediumGreen: "#1abe71",
         yellow: "#ffb500",
+        offWhite: "#fff6f6",
       },
       fontFamily: {
         rubik: ["Oxanium", "serif"],

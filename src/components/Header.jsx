@@ -4,8 +4,8 @@ import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 z-50 w-full px-6 lg:px-40 text-white">
-      <nav>
+    <header className="fixed top-0 z-50 w-full px-6 text-white">
+      <nav className="max-container">
         {/* Desktop View */}
         <ul className="max-lg:hidden flex justify-between items-center py-4">
           {/* Left Side Navbar */}
