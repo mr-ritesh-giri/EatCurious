@@ -2,11 +2,11 @@ const Curious = () => {
   return (
     <section className="min-h-screen flex-center max-lg:text-center max-lg:flex-col gap-10 w-full bg-pink lg:px-10">
       <article>
-        <h2 className="text-[8vw] lg:text-[5vw] leading-none text-darkGreen font-extrabold tracking-tighter font-rubix mb-12">
+        <h2 className="text-[10vw] lg:text-[5vw] leading-none text-darkGreen font-extrabold tracking-tighter font-rubix mb-12">
           <span>CURIOUS... BY NAME,</span> <br />
           <span>BY NATURE</span>
         </h2>
-        <div className="flex flex-center lg:hidden px-10">
+        <div className="flex flex-center lg:hidden px-10 mb-10">
           <img
             src="src/assets/Images/curious/home-1.svg"
             alt="Curious Chef Image"

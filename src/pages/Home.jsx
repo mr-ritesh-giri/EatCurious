@@ -4,6 +4,8 @@ const Home = () => {
   return (
     <section className="relative h-[120vh] w-full bg-darkGreen text-white">
       <Hero />
+
+      {/* Sticker image at the bottom */}
       <div className="absolute bottom-56 lg:bottom-96 -left-5">
         <img
           className="h-[16vw] lg:h-[9vw]"
@@ -11,6 +13,8 @@ const Home = () => {
           alt="Sticker"
         />
       </div>
+
+      {/* Cloudy SVG image at the bottom of the section */}
       <div className="absolute bottom-0 w-full">
         <img
           src="src/assets/Images/simliFigures/download (1).svg"
